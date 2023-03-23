@@ -31,5 +31,4 @@ body = {
         }]
 }
 }
-$notify("123", "333", "55");
 $done({body:JSON.stringify(body)});
