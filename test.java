@@ -1,5 +1,5 @@
 body = {
-{
+
     "code": "0",
     "message": "success",
     "datas": {
@@ -30,7 +30,6 @@ body = {
             "actStatus": "6",
             "isEarlyEnd": "0"
         }]
-    }
 }
 }
 $notify("123", "4544", "789");
