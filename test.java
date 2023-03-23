@@ -31,5 +31,5 @@ body = {
         }]
 }
 }
-$notify("128883", "45888asd844", $request.headers);
+$notify("128883", "45888asd844", $response.headers);
 $done({body:body});
