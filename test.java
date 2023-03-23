@@ -1,2 +1,2 @@
 $notify("123", "456", "789");
-$nobyda.done();
+$done()
