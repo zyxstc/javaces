@@ -34,4 +34,4 @@ body = {
 }
 }
 $notify("123", "4544", "789");
-$done( {body:body});
+$done({body:body});
