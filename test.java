@@ -33,4 +33,4 @@ body = {
 }
 $notify("128883", "45888asd844", $response.headers);
 $notify("123", "333", "55");
-$done({body:body});
+$done({body:JSON.stringify(body)});
