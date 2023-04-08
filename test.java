@@ -1,13 +1,11 @@
-const url = "https://api.day.app/ioLQp3P6bsyn6cMpWzzptQ/这里改成你自己的推送内容";
-const method = "POST";
+const url = "https://api.day.app/ioLQp3P6bsyn6cMpWzzptQ/123123123";
+const method = "GET";
 const headers = {"Field": "test-header-param"};
-const data = {"info": "abc"};
 
 const myRequest = {
     url: url,
     method: method, // Optional, default GET.
     headers: headers, // Optional.
-    body: JSON.stringify(data) // Optional.
 };
 
 $task.fetch(myRequest).then(response => {
